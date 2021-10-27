@@ -129,11 +129,9 @@
     <Error Condition="!Exists('..\packages\Microsoft.CodeCoverage.17.0.0\build\netstandard1.0\Microsoft.CodeCoverage.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeCoverage.17.0.0\build\netstandard1.0\Microsoft.CodeCoverage.targets'))" />
     <Error Condition="!Exists('..\packages\Microsoft.NET.Test.Sdk.17.0.0\build\net45\Microsoft.NET.Test.Sdk.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.NET.Test.Sdk.17.0.0\build\net45\Microsoft.NET.Test.Sdk.props'))" />
     <Error Condition="!Exists('..\packages\Microsoft.NET.Test.Sdk.17.0.0\build\net45\Microsoft.NET.Test.Sdk.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.NET.Test.Sdk.17.0.0\build\net45\Microsoft.NET.Test.Sdk.targets'))" />
-    <Error Condition="!Exists('..\packages\xunit.runner.visualstudio.2.4.3\build\net452\xunit.runner.visualstudio.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.runner.visualstudio.2.4.3\build\net452\xunit.runner.visualstudio.props'))" />
-    <Error Condition="!Exists('..\packages\coverlet.collector.3.1.0\build\netstandard1.0\coverlet.collector.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\coverlet.collector.3.1.0\build\netstandard1.0\coverlet.collector.targets'))" />
+    <Error Condition="!Exists('..\packages\xunit.runner.visualstudio.2.4.3\build\net452\xunit.runner.visualstudio.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.runner.visualstudio.2.4.3\build\net452\xunit.runner.visualstudio.props'))" />    
   </Target>
   <Import Project="..\packages\xunit.core.2.4.1\build\xunit.core.targets" Condition="Exists('..\packages\xunit.core.2.4.1\build\xunit.core.targets')" />
   <Import Project="..\packages\Microsoft.CodeCoverage.17.0.0\build\netstandard1.0\Microsoft.CodeCoverage.targets" Condition="Exists('..\packages\Microsoft.CodeCoverage.17.0.0\build\netstandard1.0\Microsoft.CodeCoverage.targets')" />
-  <Import Project="..\packages\Microsoft.NET.Test.Sdk.17.0.0\build\net45\Microsoft.NET.Test.Sdk.targets" Condition="Exists('..\packages\Microsoft.NET.Test.Sdk.17.0.0\build\net45\Microsoft.NET.Test.Sdk.targets')" />
-  <Import Project="..\packages\coverlet.collector.3.1.0\build\netstandard1.0\coverlet.collector.targets" Condition="Exists('..\packages\coverlet.collector.3.1.0\build\netstandard1.0\coverlet.collector.targets')" />
+  <Import Project="..\packages\Microsoft.NET.Test.Sdk.17.0.0\build\net45\Microsoft.NET.Test.Sdk.targets" Condition="Exists('..\packages\Microsoft.NET.Test.Sdk.17.0.0\build\net45\Microsoft.NET.Test.Sdk.targets')" />  
 </Project>
