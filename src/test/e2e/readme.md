@@ -8,11 +8,13 @@ Edge browser Version 95.0.1020.30
 Running the test
 
 Visual Studio 
+- Restore NuGet Packages
 - right click on folder "Tests" and choose option "Run Unit Tests"
 
-command line 
+Command line 
 - Make sure you are in directory "ArrayChallengeTests"
-and  run "dotnet test"
+- run "nuget restore -PackagesDirectory ..\packages"
+and then  run "dotnet test"
 
 
 
