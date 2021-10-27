@@ -19,3 +19,7 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+src/test/e2e/.vs/
+src/test/e2e/ArrayChallengeTests/bin
+src/test/e2e/ArrayChallengeTests/obj
+src/test/e2e/packages
